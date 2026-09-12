@@ -1,0 +1,18 @@
+# Core backend
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-dotenv==1.0.1
+pydantic==2.9.2
+
+# RAG / Agent
+langchain==0.3.0
+langchain-community==0.3.0
+langgraph==0.2.28
+sentence-transformers==3.1.1
+
+# Database
+pymongo==4.9.1
+
+# Utilities
+pypdf==5.0.1
+tenacity==8.5.0
